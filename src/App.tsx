@@ -1,5 +1,11 @@
-const App = () => {
-    return <div className="text-5xl">App</div>;
-};
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-export default App;
+export default function App() {
+    return (
+        <>
+            <Navbar />
+            <Footer />
+        </>
+    );
+}
