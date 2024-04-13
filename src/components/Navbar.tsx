@@ -1,6 +1,5 @@
 export default function Navbar() {
     return (
-        // Attempting not to over-complicate the fucking navbar
         <nav className="bg-gray-800 rounded-lg shadow m-4">
             <div className="text-sm text-gray-400 w-full mx-auto max-w-screen-xl p-4">
                 <span className="font-semibold flex justify-evenly">
